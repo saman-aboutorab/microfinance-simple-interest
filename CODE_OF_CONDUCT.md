@@ -1,17 +1,29 @@
-# Code of Conduct
+# Contributing to Microfinance Simple Interest Calculator
 
-## Our Pledge
+We welcome contributions from the community! Please take a moment to review this document to make the contribution process smooth and effective.
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+## Getting Started
 
-## Our Standards
+- Fork the repository and clone it locally.
+- Create a virtual environment: `python -m venv venv`
+- Activate the virtual environment: `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows)
+- Install dependencies: `pip install -r requirements.txt`
+- Make your changes and ensure tests pass.
 
-Examples of behavior that contributes to creating a positive environment include:
+## Submitting Changes
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+1. Open an issue for discussion if the change is major.
+2. Fork the repository and create a new branch for your feature/bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Your descriptive commit message"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request against the `main` branch.
 
-[Full Code of Conduct](CODE_OF_CONDUCT.md)
+## Code Style
+
+Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) for Python code style.
+
+## Tests
+
+Ensure that your changes are covered by tests and that all tests pass before submitting a pull request.
+
+Thank you for contributing to Microfinance Simple Interest Calculator!

@@ -1,21 +1,29 @@
-# Microfinance Simple Interest Calculator
+# Contributing to Microfinance Simple Interest Calculator
 
-This project provides a simple Python script to calculate simple interest for microfinance purposes.
+We welcome contributions from the community! Please take a moment to review this document to make the contribution process smooth and effective.
 
-## Usage
+## Getting Started
 
-1. Install Python on your system.
-2. Clone the repository: `git clone https://github.com/your-username/microfinance-simple-interest.git`
-3. Navigate to the project directory: `cd microfinance-simple-interest`
-4. Run the script: `python calculate_interest.py`
+- Fork the repository and clone it locally.
+- Create a virtual environment: `python -m venv venv`
+- Activate the virtual environment: `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows)
+- Install dependencies: `pip install -r requirements.txt`
+- Make your changes and ensure tests pass.
 
-## Examples
+## Submitting Changes
 
-Provide usage examples and expected output here.
+1. Open an issue for discussion if the change is major.
+2. Fork the repository and create a new branch for your feature/bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Your descriptive commit message"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request against the `main` branch.
 
-## License
+## Code Style
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) for Python code style.
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+## Tests
 
+Ensure that your changes are covered by tests and that all tests pass before submitting a pull request.
+
+Thank you for contributing to Microfinance Simple Interest Calculator!
